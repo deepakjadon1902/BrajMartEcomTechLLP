@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="faviconGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2B2" />
+      <stop offset="50%" stopColor="#D4AF37" />
+      <stop offset="100%" stopColor="#AA820A" />
+    </linearGradient>
+    <linearGradient id="faviconGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#55DDE6" />
+      <stop offset="100%" stopColor="#D4AF37" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0A140F" stroke="#D4AF37" stroke-width="4" />
+  <g transform="translate(18, 16) scale(2.8)">
+    <path
+      d="M8 26V6C13 6 18 8 18 13C18 16 16 17.5 13.5 18C17 18.5 20 20.5 20 25C20 26 19.5 26 18 26H8Z"
+      stroke="url(#faviconGold)"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+    <path
+      d="M8 16H15C17.5 16 19.5 14 19.5 11.5C19.5 9 17.5 7 15 7H8"
+      stroke="url(#faviconGold)"
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <path
+      d="M8 25H16C18.8 25 21 22.8 21 20C21 17.2 18.8 15 16 15H8"
+      stroke="url(#faviconGold)"
+      stroke-width="2"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <circle cx="23" cy="9" r="2" fill="url(#faviconGlow)" />
+  </g>
+</svg>

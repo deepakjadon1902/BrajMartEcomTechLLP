@@ -1,0 +1,5 @@
+import { PageFrame, PageIntro } from '@/components/site-header'
+
+export default function TermsPage() {
+  return <PageFrame><PageIntro label="Legal" title={<>Terms of<br /><em>service.</em></>}>The simple version of how we work together.</PageIntro><article className="legal-page"><p className="section-label">Last updated September 2026</p><h2>Working together</h2><p>These terms govern the use of the BrajMart EcomTech LLP website and the relationship formed when you engage our services. By using this website, you agree to use it lawfully and respectfully.</p><h2>Our services</h2><p>Project scope, timelines, deliverables, fees, and responsibilities are defined in a written proposal or statement of work. Any changes are agreed in writing before work proceeds.</p><h2>Intellectual property</h2><p>Upon full payment, approved final deliverables transfer to the client as described in the relevant statement of work. BrajMart EcomTech LLP retains ownership of its pre-existing tools, methods, and know-how.</p><h2>Contact</h2><p>Questions about these terms can be sent to hello@brajmart.com.</p></article></PageFrame>
+}

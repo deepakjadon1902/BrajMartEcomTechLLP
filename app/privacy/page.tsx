@@ -1,0 +1,5 @@
+import { PageFrame, PageIntro } from '@/components/site-header'
+
+export default function PrivacyPage() {
+  return <PageFrame><PageIntro label="Legal" title={<>Privacy,<br /><em>with clarity.</em></>}>We respect your information and only collect what helps us respond and improve our work.</PageIntro><article className="legal-page"><p className="section-label">Last updated September 2026</p><h2>What we collect</h2><p>When you contact BrajMart EcomTech LLP, we may collect your name, email address, company details, selected branch, and the information you choose to share about your project.</p><h2>How we use it</h2><p>We use this information to respond to enquiries, prepare proposals, deliver services, route branch requests, and improve our website. We do not sell personal information.</p><h2>Keeping information safe</h2><p>We use reasonable administrative and technical safeguards and retain information only for as long as it serves a legitimate business purpose or the law requires.</p><h2>Your choices</h2><p>To ask what information we hold, request a correction, or ask us to remove it, email hello@brajmart.com.</p></article></PageFrame>
+}
