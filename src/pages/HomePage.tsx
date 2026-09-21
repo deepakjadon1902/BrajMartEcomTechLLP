@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowDown, ArrowUpRight, Sparkles, TrendingUp, Code, ShoppingBag } from 'lucide-react'
+import { ArrowDown, ArrowUpRight, Code2, Megaphone, ShoppingBag, ShoppingCart } from 'lucide-react'
 import { CometCard } from '@/components/ui/comet-card'
 import { FAQSection } from '@/components/faq-section'
 import { PageFrame, Reveal } from '@/components/site-header'
@@ -12,21 +12,21 @@ const videoSources = [
   {
     id: 'commerce-growth',
     label: 'Commerce & Growth',
-    icon: <Sparkles size={14} />,
+    icon: <ShoppingCart size={14} />,
     url: '/videos/herosectionvideo.mp4',
     title: 'Commerce, Growth & Technology',
   },
   {
     id: 'marketing',
     label: 'Digital Marketing',
-    icon: <TrendingUp size={14} />,
+    icon: <Megaphone size={14} />,
     url: '/videos/herosectionvideo.mp4',
     title: 'Growth Systems & Analytics',
   },
   {
     id: 'development',
     label: 'Web Development',
-    icon: <Code size={14} />,
+    icon: <Code2 size={14} />,
     url: '/videos/herosectionvideo.mp4',
     title: 'Full-Stack Web Engineering',
   },
