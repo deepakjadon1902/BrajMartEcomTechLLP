@@ -89,7 +89,6 @@ export default function HomePage() {
           loop
           playsInline
           preload="auto"
-          poster="/images/brajmart-hero-still.png"
           aria-label="BrajMart EcomTech Corporate Hero"
         >
           <source src="/videos/herosectionvideo.mp4" type="video/mp4" />

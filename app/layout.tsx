@@ -13,19 +13,30 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/logos/brajmart-logo.webp',
+        type: 'image/webp',
       },
     ],
-    apple: '/apple-icon.png',
+    shortcut: '/logos/brajmart-logo.webp',
+    apple: '/logos/brajmart-logo.webp',
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://brajmart-ecomtech-llp.vercel.app/',
+    title: 'BrajMart EcomTech LLP - BrajMart, Liklet and BrajBuzz Tech',
+    description: 'BrajMart EcomTech LLP connects devotional ecommerce, digital marketing, full-stack development and tech media through BrajMart, Liklet, BrajBuzz Tech and Liklet Tech.',
+    images: [
+      {
+        url: 'https://brajmart-ecomtech-llp.vercel.app/logos/brajmart-logo.webp',
+        type: 'image/webp',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'BrajMart EcomTech LLP - BrajMart, Liklet and BrajBuzz Tech',
+    description: 'BrajMart EcomTech LLP connects devotional ecommerce, digital marketing, full-stack development and tech media through BrajMart, Liklet, BrajBuzz Tech and Liklet Tech.',
+    images: ['https://brajmart-ecomtech-llp.vercel.app/logos/brajmart-logo.webp'],
   },
 }
 
