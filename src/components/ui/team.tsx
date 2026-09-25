@@ -42,6 +42,14 @@ const teamMembers = [
     badge: "HR Exec",
     imagePosition: "object-[center_20%]",
   },
+  {
+    name: "Suman Gupta",
+    role: "Editing Head",
+    bio: "Leading editing workflows, content refinement, quality checks, and polished media output across the team's creative work.",
+    image: "/team/suman-gupta.png",
+    badge: "Editing",
+    imagePosition: "object-center",
+  },
 ];
 
 export default function Component() {

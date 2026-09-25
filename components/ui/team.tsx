@@ -33,6 +33,12 @@ const teamMembers = [
     role: 'HR Executive',
     bio: 'Directing talent operations, recruitment workflows, team onboarding, and internal human resources execution.',
   },
+  {
+    image: '/team/suman-gupta.png',
+    name: 'Suman Gupta',
+    role: 'Editing Head',
+    bio: 'Leading editing workflows, content refinement, quality checks, and polished media output across the team\'s creative work.',
+  },
 ]
 
 export default function TeamSection() {
